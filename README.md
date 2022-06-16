@@ -10,7 +10,7 @@ Just pull image
 docker pull kalashnikovisme/haml-docker
 ```
 
-And then `docker run kalashnikovisme/haml-docker YOUR_HAML_FILE.haml`
+And then `docker run --rm --volume "$PWD:/app" kalashnikovisme/haml-docker /app/YOUR_FILE.haml`
 
 ## Build and push your own image
 
