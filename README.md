@@ -10,9 +10,7 @@ Just pull image
 docker pull kalashnikovisme/haml-docker
 ```
 
-Mount your project at `/app` in the image and let Rubocop run wild:
-
-`docker run kalashnikovisme/haml-docker YOUR_HAML_FILE.haml`
+And then `docker run kalashnikovisme/haml-docker YOUR_HAML_FILE.haml`
 
 ## Build and push your own image
 
